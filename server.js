@@ -26,7 +26,7 @@ mongoose.connect('mongodb://userdev1:userdev1@ds153394.mlab.com:53394/codebabeld
 
 var con = mongoose.connection;
 con.once('open', function() {
-console.log('connected to mongodb successfully!!!')
+console.log('connected to mongodb successfully!!!!')
 authormodel.seedAuthors();
 console.log('updated the databases')
 
