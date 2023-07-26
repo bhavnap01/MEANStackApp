@@ -28,7 +28,7 @@ var con = mongoose.connection;
 con.once('open', function() {
 console.log('connected to mongodb successfully!!!')
 authormodel.seedAuthors();
-console.log('updated the database')
+console.log('updated the databases')
 
 });
 
