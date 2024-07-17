@@ -1,8 +1,15 @@
 //angular.module('app', []);
 //angular.module('app', []);
 angular.module('app', ['ngResource']);
-
-
+angular.module('app', ['ngResource']);
+angular.module('app', ['ngResource']);
+angular.module('app', ['ngResource']);
+angular.module('app', ['ngResource']);
+angular.module('app', ['ngResource']);
+angular.module('app', ['ngResource']);
+angular.module('app', ['ngResource']);
+angular.module('app', ['ngResource']);
+angular.module('app', ['ngResource']);
 // angular.module('app').controller('testCtrl', function($scope) {
 angular.module('app').controller('testCtrl', function($scope, $resource) {
 //$scope.test = "working!!!";
